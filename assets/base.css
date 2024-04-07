@@ -3442,3 +3442,13 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+body,
+.color-background-1 {
+background: var(--gradient-background);
+background-attachment: fixed;
+background-image: url(https://chainsandshackles.shop/cdn/shop/files/box1.jpg) !important;
+background-color: transparent !important;
+background-position: top left !important;
+background-size: auto !important;
+}
