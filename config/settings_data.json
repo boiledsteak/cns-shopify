@@ -389,7 +389,8 @@
   "platform_customizations": {
     "custom_css": [
       ".color-scheme-5c499cb6-1d03-4089-b13e-e3264a04c809 {--gradient-background: transparent;}",
-      ".color-scheme-6 {--gradient-background: transparent;}"
+      ".color-scheme-6 {--gradient-background: transparent;}",
+      "details[open] .modal-overlay:after {background-color: black; opacity: 0.7;}"
     ]
   }
 }
