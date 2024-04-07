@@ -2,6 +2,18 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_jeajgx": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".stickers-con {width: 90%; max-width: 900px; margin: auto; top: 8px; position: relative; text-align: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"stickers-con\"><div id=\"stickers\"><img src=\"https:\/\/anlucas.neocities.org\/mcaffee.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/html_learn_it_today.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/made_with_windows.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/yahoomail.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/javanow.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/hatemac.jpg\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/leave.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/Ebay.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/mars_icon.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/Winamp.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/get.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/linux_powered.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/icongallery.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/nonags.gif\" alt=\"\"><img src=\"https:\/\/anlucas.neocities.org\/javass.gif\" alt=\"\"><\/div><\/div>",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -9,7 +21,7 @@
         "newsletter_enable": true,
         "newsletter_heading": "Do you want discounts?",
         "enable_follow_on_shop": false,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
@@ -21,6 +33,7 @@
     }
   },
   "order": [
+    "custom_liquid_jeajgx",
     "footer"
   ]
 }
