@@ -5,7 +5,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "h1 {font-size: 40px;}"
+        "header-drawer {color: grey;}"
       ],
       "settings": {
         "logo_position": "top-center",
