@@ -3464,7 +3464,10 @@ body,
   background-repeat: no-repeat !important;
 }
 #MainContent {
-  padding-top: 50px;
+  padding-top: 90px;
+  max-width: 1000px;
+  width: 95%;
+  margin: auto;
 }
 
 /*===================================================================  */
