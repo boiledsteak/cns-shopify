@@ -3455,15 +3455,16 @@ details-disclosure > details {
 /* SET FIXED BACKGROUND IMAGE */
 body,
 .color-background-1 {
-background: var(--gradient-background);
-background-attachment: fixed;
-background-image: url(https://chainsandshackles.shop/cdn/shop/files/box1.jpg) !important;
-background-color: transparent !important;
-background-position: center !important; 
-background-size: cover !important;
-background-repeat: no-repeat !important;
-
-
+  background: var(--gradient-background);
+  background-attachment: fixed;
+  background-image: url(https://chainsandshackles.shop/cdn/shop/files/box1.jpg) !important;
+  background-color: transparent !important;
+  background-position: center !important; 
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.MainContent {
+  padding-top: 50px;
 }
 
 /*===================================================================  */
