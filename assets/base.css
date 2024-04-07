@@ -3457,14 +3457,13 @@ body,
 .color-background-1 {
 background: var(--gradient-background);
 background-attachment: fixed;
-background-image: url(https://chainsandshackles.shop/cdn/shop/files/box1.jpg?width=3840) !important;
+background-image: url(https://chainsandshackles.shop/cdn/shop/files/box1.jpg) !important;
 background-color: transparent !important;
-background-position: top left !important;
-background-size: auto !important;
+background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
+
+
 }
 
 /*===================================================================  */
