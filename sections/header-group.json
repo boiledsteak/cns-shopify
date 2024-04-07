@@ -6,13 +6,14 @@
       "type": "header",
       "custom_css": [
         ".header__icon {color: grey;}",
-        ".header__icon--menu[aria-expanded=\"true\"]:before {background-color: black; opacity: 0.6;}"
+        ".header__icon--menu[aria-expanded=\"true\"]:before {background-color: black; opacity: 0.6;}",
+        ".header {color: red;}"
       ],
       "settings": {
         "logo_position": "top-center",
         "menu": "new-top-menu",
         "menu_type_desktop": "drawer",
-        "sticky_header_type": "always",
+        "sticky_header_type": "none",
         "show_line_separator": false,
         "color_scheme": "scheme-3",
         "menu_color_scheme": "",
