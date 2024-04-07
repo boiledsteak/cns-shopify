@@ -5,7 +5,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "header-drawer {color: grey;}"
+        ".header__icon{color: \"grey\";}",
+        "header-drawer{color: \"grey\";}"
       ],
       "settings": {
         "logo_position": "top-center",
