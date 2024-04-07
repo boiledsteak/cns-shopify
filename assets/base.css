@@ -3470,8 +3470,15 @@ body,
   margin: auto;
 }
 
-/* FIX DRAWER WHEN IN MOBILR */
+/* FIX DRAWER WHEN IN MOBILE */
 .menu-drawer__utility-links {
   bottom: 50px;
+}
+
+/* CHANGE DRAWER OUT OF FOCUS BACKGROUND FOR CURRENCY, IN MOBILE */
+.country-selector__overlay {
+  background-color: black;
+  opacity: 0.7;
+}
 
 /*===================================================================  */
