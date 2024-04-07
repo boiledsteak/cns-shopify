@@ -3461,6 +3461,10 @@ background-image: url(https://chainsandshackles.shop/cdn/shop/files/box1.jpg?wid
 background-color: transparent !important;
 background-position: top left !important;
 background-size: auto !important;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 }
 
 /*===================================================================  */
