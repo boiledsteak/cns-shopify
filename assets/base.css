@@ -3481,4 +3481,9 @@ body,
   opacity: 0.7 !important;
 }
 
+/* ADD BACKGROUND IMAGE TO LOGIN */
+#shopify-section-template--17721470583004__main {
+  background-image: url(https://chainsandshackles.shop/cdn/shop/files/clouds.jpg) !important;
+}
+
 /*===================================================================  */
