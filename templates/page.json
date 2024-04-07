@@ -2,13 +2,45 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_WUzRf4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TRay7n": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT US",
+            "heading_size": "h1"
+          }
+        },
+        "text_EyV4Ga": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chainsandshackles is an online clothing store based in Singapore. Themed after Hong Kong fashion culture, we offer a wide variety of curated tops, bottoms, accessories etc. <\/p><p>We host pop-ups and events. Drop us an email if you are interested in working with us<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TRay7n",
+        "text_EyV4Ga"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_WUzRf4"
   ]
 }
